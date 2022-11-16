@@ -18,8 +18,8 @@
     "postinstall": "cd client && npm install",
     "build": "NODE_ENV=production cd client/ && npm install && npm run build",
     "start-server": "node index.js",
-    "homepage": "https://spotifyappjh.onrender.com/login"
-    
+    "homepage": "https://spotifyappjh.onrender.com/login",
+    "devServer": "disableHostCheck: true"
     
   },
   
@@ -35,7 +35,5 @@
     "concurrently": "^7.5.0",
     "graceful-fs": "^4.2.10",
     "nodemon": "^2.0.20"
-  }, "devServer": {
-    "allowedHosts": "all"
   }
 }
