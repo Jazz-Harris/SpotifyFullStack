@@ -14,8 +14,8 @@
     "start": "concurrently --kill-others-on-fail \"npm run server\" ",
     "server": "nodemon index.js",
   
-    
-   
+    "postinstall": "npm install",
+    "build": "NODE_ENV=production  && npm install && npm run build",
     "start-server": "node index.js"
   },
   "keywords": [],
