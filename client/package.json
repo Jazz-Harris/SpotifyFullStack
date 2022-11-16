@@ -1,5 +1,6 @@
 {
   "name": "src",
+  "homepage": "https://spotifyappjh.onrender.com/login",
   "version": "0.1.0",
   "proxy": "https://spotifyappjh.onrender.com/login",
   "private": true,
@@ -15,9 +16,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "homepage": "https://spotifyappjh.onrender.com/login",
     "start": "react-scripts start",
-
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -1,6 +1,7 @@
 {
   "name": "spotifyappv2",
   "version": "1.0.0",
+  "homepage": "https://spotifyappjh.onrender.com/login",
   "description": "",
   "main": "index.js",
   "engines": {
@@ -18,7 +19,7 @@
     "postinstall": "cd client && npm install",
     "build": "NODE_ENV=production cd client/ && npm install && npm run build",
     "start-server": "node index.js",
-    "homepage": "https://spotifyappjh.onrender.com/login",
+    
     "devServer": "disableHostCheck: true"
     
   },
