@@ -16,7 +16,8 @@
     "client": "cd client && npm start",
     "postinstall": "cd client && npm install",
     "build": "NODE_ENV=production cd client/ && npm install && npm run build",
-    "start-server": "node index.js"
+    "start-server": "node index.js",
+    "homepage": "https://spotifyappjh.onrender.com/login"
   },
   "keywords": [],
   "author": "",
