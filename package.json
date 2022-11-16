@@ -6,6 +6,9 @@
   "engines": {
     "node": "18.12.1"
   },
+  "devServer": {
+    "allowedHosts": "all"
+  },
   "cacheDirectories": [
     "node_modules",
     "/node_modules"
@@ -18,7 +21,10 @@
     "build": "NODE_ENV=production cd client/ && npm install && npm run build",
     "start-server": "node index.js",
     "homepage": "https://spotifyappjh.onrender.com/login"
+    
+    
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
