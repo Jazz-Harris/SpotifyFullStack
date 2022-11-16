@@ -6,9 +6,7 @@
   "engines": {
     "node": "18.12.1"
   },
-  "devServer": {
-    "allowedHosts": "all"
-  },
+ 
   "cacheDirectories": [
     "node_modules",
     "/node_modules"
@@ -37,5 +35,7 @@
     "concurrently": "^7.5.0",
     "graceful-fs": "^4.2.10",
     "nodemon": "^2.0.20"
+  }, "devServer": {
+    "allowedHosts": "all"
   }
 }
