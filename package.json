@@ -1,19 +1,21 @@
 {
   "name": "spotifyappv2",
   "version": "1.0.0",
+  "homepage": "https://spotifyappjh.onrender.com/login",
   "devServer": "disableHostCheck: true && compress: true && allowedHosts: all",
   "description": "",
   "main": "index.js",
   "engines": {
     "node": "18.12.1"
   },
+ 
   "cacheDirectories": [
     "node_modules",
-    "client/node_modules"
+    "/node_modules"
   ],
   "scripts": {
-    "start": "npm run server && npm run client",
-    "server": "index.js",
+    "start": "concurrently --kill-others-on-fail \"npm run start-server\" \"npm run client\"",
+    "server": "nodemon index.js",
     "client": "cd client && npm start",
     "postinstall": "cd client && npm install",
     "build": "NODE_ENV=production cd client/ && npm install && npm run build",
